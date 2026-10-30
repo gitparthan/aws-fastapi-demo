@@ -5,7 +5,7 @@ app = FastAPI(title="AWS Git Deployment Demo")
 
 @app.get("/")
 def home():
-    return {"message": "Hello from GitHub deployed to AWS!"}
+    return {"message": "Hello from GitHub deployed to AWS! - Modified"}
 
 
 @app.get("/health")
